@@ -1,12 +1,137 @@
+<!doctype html>
 <html>
-<head>
-	<title>Hola Mundo</title>
-</head>
-<body>
-	<h2>Estamos en directo</h2>
-	<p>Hola mundo</p>
-	<p>Esto es una pruega</p>
-	<p>Esto es una pruega</p>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mi primer sitio Web</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="menu">
+				<ul>
+					<li><a href="#servicios">SERVICIOS</a></li>
+					<li><a href="#trabajo">TRABAJO</a></li>
+					<li><a href="#inicio" class="logo">&nbsp;</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#contacto">CONTACTO</a></li>
+				</ul>
+			</div><!--Fin menu-->
 
-</body>
+			<div id="inicio">
+				<div id="slider">
+					<div id="containerSlider">
+						<img src="img/slide-1.jpg" alt="" width="951" height="433">
+						<img src="img/slide-2.jpg" alt="" width="951" height="433">
+						<img src="img/slide-3.jpg" alt="" width="951" height="433">
+					</div><!--Fin containerSlider-->
+				</div><!--Fin slider-->
+
+			</div><!--Fin inicio-->
+
+			<div id="servicios">
+				<h2>Servicios</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
+
+				<div id ="acordeonServicios">
+					<div id="tab">
+						<a href="#">Plan Básico</a>
+						<a href="#">Plan Medio</a>
+						<a href="#">Plan Alto</a>
+					</div><!--Fin tab-->
+					<div class="tabContent">
+						<img src="">
+					</div>
+					<div class="tabContent">
+						<img src="">
+					</div>
+					<div class="tabContent">
+						<img src="">
+					</div>
+				</div><!--Fin acordeonServicios-->
+
+			</div><!--Fin servicios-->
+
+			<div id="trabajo">
+				<h2>Trabajo</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
+
+				<div id="slideshow">
+					<img src="">
+					<img src="">
+					<img src="">
+					<img src="">
+					<img src="">
+					<img src="">
+				</div><!--Fin slideshow-->
+			</div><!--Fin trabajo-->
+
+			<div id="faq">
+				<h2>FAQ</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
+
+				<div id="acordeonFaq">
+				</div><!--Fin acordeonFaq-->
+
+			</div><!--Fin faq-->
+
+			<div id="contacto">
+				<h2>Contacto</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
+
+				<div id="formulario">
+					<form action="">
+						<label>Nombre:</label><br/>
+						<input type="text" class="campo" id="tfNombre"><br/>
+						<label> Correo Electronico:</label><br/>
+						<input type="text" class="campo" id="tfCorreo"><br/>
+						<label>Asunto:</label><br/>
+						<input type="text" class="campo" id="tfAsunto"><br/>
+						<label>Mensaje:</label><br/>
+						<textarea id="tfMensaje" cols="30" rows="10"></textarea><br/>
+						<input type="submit" value="Enviar formulario!!" class="boton">
+
+					</form><!--Fin form-->
+				</div><!--Fin formulario-->
+			</div><!--Fin contacto-->
+
+			<div id="footer">
+				Todos los derechos reservados - 2016
+			</div><!--Fin footer-->
+
+		</div><!--Fin Container-->	
+	</body>
+
 </html>
